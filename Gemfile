@@ -27,6 +27,13 @@ group :development do
   gem 'rails_layout'
   gem 'spring-commands-rspec'
   gem 'quiet_assets'
+  gem 'guard'
+  gem 'guard-livereload'
+  gem 'guard-bundler'
+  gem 'guard-rspec', require: false
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'pry-nav'
 end
 
 group :development, :test do
