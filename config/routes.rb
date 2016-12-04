@@ -5,8 +5,7 @@ Rails.application.routes.draw do
 
   resources :students do
   	get 'subjects' => 'students#subjects'
-      end
-
+  end
   get 'report_subjects' => 'reports#subjects'
   get 'index' => 'visitors#index'
 
